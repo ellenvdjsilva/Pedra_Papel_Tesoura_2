@@ -49,12 +49,12 @@ namespace Pedra_Papel_Tesoura_2
             }
             else if ((escolhaUser == "TESOURA" && escolhaComput == "PAPEL") || (escolhaUser == "PEDRA" && escolhaComput == "TESOURA") || (escolhaUser == "PEDRA" && escolhaComput == "PAPEL"))
             {
-                textBox2.Text = escolhaUser + " vence " + escolhaComput + " você ganhou ";
+                textBox2.Text = " você ganhou ";
 
             }
             else
             {
-                textBox2.Text = escolhaComput + " vence " + escolhaUser + " você perdeu";
+                textBox2.Text = " Máquina ganhou perdeu";
             }
 
         }
