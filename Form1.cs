@@ -54,7 +54,7 @@ namespace Pedra_Papel_Tesoura_2
             }
             else
             {
-                textBox2.Text = " Máquina ganhou perdeu";
+                textBox2.Text = " Máquina ganhou ";
             }
 
         }
