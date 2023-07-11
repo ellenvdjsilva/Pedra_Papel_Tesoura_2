@@ -47,7 +47,7 @@ namespace Pedra_Papel_Tesoura_2
             {
                 textBox2.Text = "Empate";
             }
-            else if ((escolhaUser == "TESOURA" && escolhaComput == "PAPEL") || (escolhaUser == "PEDRA" && escolhaComput == "TESOURA") || (escolhaUser == "PEDRA" && escolhaComput == "PAPEL"))
+            else if ((escolhaUser == "TESOURA" && escolhaComput == "PAPEL") || (escolhaUser == "PEDRA" && escolhaComput == "TESOURA") || (escolhaUser == "PAPEL" && escolhaComput == "PEDRA"))
             {
                 textBox2.Text = " você ganhou ";
 
